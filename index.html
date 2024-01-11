@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function classSector(){
+           var paraRef= document.getElementsByClassName("p1");
+       var para=document.getElementsByName("p1");
+console.log(para);  
+           //console.log(paraRef);
+
+       paraRef[1].style.color="white";
+       paraRef[1].style.backgroundColor="black";
+       paraRef[1].style.color="red";
+       paraRef[1].style.padding="20px";
+
+    /*    for(let  x  in paraRef[1].style){
+        console.log(x);
+       } */
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h2>Class Sector</h2>
+        <p class="p1" name="p1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum, cupiditate molestias qui voluptates magnam quos iure temporibus quasi quo quae quia ea aliquam laudantium tempora nesciunt sequi odit harum perferendis dolores illo illum eveniet? Vitae id tempora veritatis repellat et, sint suscipit enim accusamus.
+        </p>
+        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, laudantium ea sint molestiae quibusdam nostrum corporis voluptatem. Temporibus, tempora corporis laudantium praesentium porro dolorum explicabo molestiae aperiam molestias architecto? Perspiciatis laudantium facilis vero provident minus illum. Officia harum magni, iure velit mollitia quasi vero doloribus.</p>
+
+        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente unde magni tempora perspiciatis. Et laborum nulla voluptatum ea explicabo neque optio fugit error dolor. Iusto id impedit eum et delectus corporis doloribus earum repellat ipsum vero incidunt veniam aspernatur ab similique, expedita, sed velit error.</p>
+    <button onclick="classSector()">Select Para</button>
+    </div>
+</body>
+</html>
